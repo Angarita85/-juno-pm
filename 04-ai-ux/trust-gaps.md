@@ -1,25 +1,17 @@
-# Juno PM — AI-UX Trust Gap Mitigations
+# Trust-Gap Mitigations · Juno
 
-_Version 0.1 — placeholder. Replace via M4 AI-UX Trust Gap Checker._
+> Module 4 · AI-Native UX. Trust gaps surfaced with the **M4 · AI-UX Trust Gap Checker**, and how each is mitigated. Paste the tool's markdown over this file.
 
-## Gap 1 — Black-box gap
-*Users don't know why the AI did what it did.*
+## Trust gaps
 
-- **Where it shows up in Juno:** _(specific UX node)_
-- **Mitigation:** _(specific UX pattern — e.g., "why this risk" inline citation chips)_
+| Gap | Where it shows up | User cost | Mitigation |
+|---|---|---|---|
+| _Hallucination_ | _…_ | _…_ | _…_ |
+| _Opacity (no "why")_ | _…_ | _…_ | _…_ |
+| _No user control_ | _…_ | _…_ | _…_ |
 
-## Gap 2 — Hallucination gap
-*Users don't know when the AI is wrong.*
+## Highest-priority fix
 
-- **Where it shows up in Juno:** _(specific UX node)_
-- **Mitigation:** _(specific UX pattern — e.g., confidence badge with anchor descriptions)_
+_The single gap you'd close first, and why._
 
-## Gap 3 — Control gap
-*Users don't know what they can or cannot change.*
-
-- **Where it shows up in Juno:** _(specific UX node)_
-- **Mitigation:** _(specific UX pattern — e.g., "edit / suppress / approve" inline actions on each risk)_
-
-## Cross-gap fail-state
-
-What happens if all three gaps fire at once? _(your worst-case scenario + the UI it goes into)_
+_____

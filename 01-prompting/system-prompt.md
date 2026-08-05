@@ -1,18 +1,33 @@
-# Juno PM — System Prompt
+# System Prompt · Juno
 
-_Version 0.1 — placeholder. Replace via M1 System Prompt Configurator._
+> Module 1 · Prompting. Juno's production system prompt, authored with the **M1 · System Prompt Configurator**. Fill the tool, then paste its markdown over this file.
 
-## Persona
-_(who Juno is)_
+## Role & objective
 
-## Task
-_(what Juno does and doesn't do)_
+_Who Juno is and the single job it optimises for._
 
-## Style
-_(tone, vocabulary, formality)_
+_____
 
-## Format
-_(output structure — table, bullets, JSON, etc.)_
+## Context & knowledge
 
-## Constraints
-_(refusals, escalations, hand-off rules)_
+_What Juno knows, the sources it can draw on, and its boundaries._
+
+_____
+
+## Rules & guardrails
+
+_Musts, must-nots, refusal conditions, and tone._
+
+_____
+
+## Output format
+
+_The exact shape of a good response._
+
+_____
+
+## Few-shot examples
+
+_One or two worked input → output pairs._
+
+_____

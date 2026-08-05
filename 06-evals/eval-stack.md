@@ -1,26 +1,29 @@
-# Juno PM — Eval Stack
+# Eval Stack · Juno
 
-_Version 0.1 — placeholder. Replace via M6 Eval Stack Designer._
+> Module 6 · Evals & Guardrails. Juno's layered evaluation stack, designed with the **M6 · Eval Stack Designer**. Paste the tool's markdown over this file.
 
-## Layer 1 · User feedback
+## What "good" means
 
-- **Signals captured:** _(thumbs / regen / suppress / freetext)_
-- **Cadence:** _(per request)_
-- **Pass bar:** _(numeric — e.g., ≥80% thumbs-up)_
-- **Who acts on it:** _(PM / on-call PM)_
+_The user promise and the top trust metrics you're protecting._
 
-## Layer 2 · Human evaluation
+_____
 
-- **What gets sampled:** _(volume + stratification)_
-- **Rubric:** see `06-evals/human-rubric.md`
-- **Cadence:** _(weekly batch)_
-- **Pass bar:** _(numeric — mean score across dimensions)_
-- **Who grades:** _(graders + tiebreaker)_
+## The stack
 
-## Layer 3 · Automated evals
+| Layer | Evaluator | What it catches | Threshold / gate |
+|---|---|---|---|
+| _Code-based_ | _…_ | _…_ | _…_ |
+| _LLM-as-judge_ | _…_ | _…_ | _…_ |
+| _Human_ | _…_ | _…_ | _…_ |
 
-- **Golden set:** _(size, location, refresh cadence)_
-- **Eval checks:** _(LLM-judge, format, citation, refusal)_
-- **Cadence:** _(per PR + nightly)_
-- **Pass bar:** _(numeric — golden-set accuracy + format/citation/refusal)_
-- **Who acts on it:** _(CI fails the PR; PM owns the bar)_
+## Golden set
+
+_What's in it, how big, and how it's maintained._
+
+_____
+
+## Release gate
+
+_What must pass before Juno ships._
+
+_____

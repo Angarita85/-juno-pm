@@ -1,46 +1,29 @@
-# Juno PM — Human Evaluation Rubric
+# Human Evaluation Rubric · Juno
 
-_Version 0.1 — placeholder. Replace via M6 Human Evaluation Rubric tool._
+> Module 6 · Evals & Guardrails. The rubric human graders use to score Juno, from the **M6 · Human Evaluation Rubric**. Paste the tool's markdown over this file.
 
-**Rubric:** _(name)_
+## What graders score
 
-**Scope:** _(what gets graded — e.g., "the top-3 risk list Juno posts to #pm-daily")_
+_The task and the sample they review._
 
-## Scale
-1 = Poor · 2 · 3 = Pass · 4 · 5 = Excellent
+_____
 
 ## Dimensions
 
-### Accuracy
-| Score | Anchor |
-|---|---|
-| 1 | _ |
-| 2 | _ |
-| 3 | _ |
-| 4 | _ |
-| 5 | _ |
+| Dimension | 1 (fail) | 3 (ok) | 5 (excellent) |
+|---|---|---|---|
+| _Factual grounding_ | _…_ | _…_ | _…_ |
+| _Helpfulness_ | _…_ | _…_ | _…_ |
+| _Safety / tone_ | _…_ | _…_ | _…_ |
 
-### Citation correctness
-| Score | Anchor |
-|---|---|
-| 1 | _ |
-| 2 | _ |
-| 3 | _ |
-| 4 | _ |
-| 5 | _ |
+## Calibration
 
-### Safety
-| Score | Anchor |
-|---|---|
-| 1 | _ |
-| 2 | _ |
-| 3 | _ |
-| 4 | _ |
-| 5 | _ |
+_How graders align (worked example + agreement target, e.g. κ ≥ 0.6)._
 
-## Sampling & process
+_____
 
-- **Cadence:** _(count + frequency)_
-- **Graders:** _(N + tiebreaker)_
-- **Disagreement protocol:** _(explicit)_
-- **Pass bar:** _(numeric)_
+## Pass bar
+
+_The mean / threshold that counts as a pass._
+
+_____

@@ -1,30 +1,33 @@
-# Juno PM — Agent Workflow Spec (AWSpec)
+# Agent Workflow Spec (AWSpec) · Juno
 
-_Version 0.1 — placeholder. Replace via M5 Agent Workflow Spec Builder._
+> Module 5 · Agentic Workflows. Juno's agentic workflow specification, built with the **M5 · Agent Workflow Spec Builder**. Paste the tool's markdown over this file.
 
-## 1. Goal
-_(one sentence; names the value frame)_
+## Goal
 
-## 2. Trigger
-_(precise, testable condition)_
+_The outcome the agent workflow delivers._
 
-## 3. Inputs
-_(required context for the run)_
+_____
 
-## 4. Tools available
-_(each tool with its scope — read-only / write — and any ACL)_
+## Trigger
 
-## 5. Memory
-_(short-term, long-term, episodic, semantic — each marked in or out)_
+_What starts the workflow._
 
-## 6. Pattern
-_(ReAct / Planner-Executor / Hybrid)_
+_____
 
-## 7. Stop conditions
-_(success, failure, escalation, timeout — at minimum)_
+## Steps & tools
 
-## 8. Handoff rules
-_(confidence threshold + what happens when triggered)_
+| Step | Action | Tool / model | Guardrail |
+|---|---|---|---|
+| 1 | _…_ | _…_ | _…_ |
+| 2 | _…_ | _…_ | _…_ |
 
-## 9. Eval hooks
-_(what gets logged for M6's eval stack)_
+## Human-in-the-loop
+
+_Where a human reviews or approves, and the escalation rule._
+
+_____
+
+## Success & failure
+
+- **Done when:** _____
+- **Fails safe when:** _____

@@ -1,38 +1,27 @@
-# Juno PM — AI User Flow (the Iceberg)
+# AI-Native User Flow · Juno
 
-_Version 0.1 — placeholder. Replace via M4 AI User Flow Architect._
+> Module 4 · AI-Native UX. The end-to-end user flow, designed with the **M4 · AI User Flow Architect**. Paste the tool's markdown over this file.
 
-## Above the waterline
+## Entry point
 
-### 1. Trigger
-_(what kicks Juno off — user action, system event, schedule)_
+_Where and why the user reaches for Juno._
 
-### 2. Act
-_(what Juno produces, where it lands, who sees it first)_
+_____
 
-## Below the waterline
+## The flow
 
-### 3. Sense
-_(what signals Juno detects — channel, message, payload)_
+1. _Step — what the user does / what Juno does_
+2. _…_
+3. _…_
 
-### 4. Retrieve
-_(what gets pulled in — corpus + freshness)_
+## AI moments
 
-### 5. Reason
-_(model + prompt + tool calls)_
+_Where the AI acts, what it shows, and how the user stays in control (edit / undo / confirm)._
 
-### 6. Reflect
-_(self-check, confidence score, format check)_
+_____
 
-### 7. Recover
-_(what happens when something goes wrong — undo, escalate, refuse)_
+## Fallbacks
 
-## UX touchpoints
+_What happens when Juno is unsure, wrong, or offline._
 
-| Node | What user sees | What user can do |
-|---|---|---|
-| Trigger | _ | _ |
-| Act | _ | _ |
-| Reason | _ (loading state) _ | _ |
-| Reflect | _ (confidence label) _ | _ |
-| Recover | _ (error / fallback UI) _ | _ |
+_____

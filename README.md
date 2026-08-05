@@ -1,85 +1,93 @@
-# Juno PM — AI Product Management Certification project template
+# Juno PM
 
-> Fork this repo. Replace this README with your own as you progress through the cohort. By the end of Module 6 this file is your **certification submission**.
+> _(one-line pitch: what Juno does, for whom, in one sentence)_
 
-You are building **Juno PM** — an AI Associate PM for **RocketShip**, a B2B SaaS platform for Enterprise Data Teams. Juno's job: turn the chaos of P0 escalations, customer threads, and PRDs into a daily prioritised top-3 risk list, with citations and confidence scores.
+_Your name · cohort · date_
 
-This template gives you one folder per module. Each module pushes a real artifact into it. At the end you finalise this README into a **PM Execution Plan + portfolio piece**.
+This repo is my final project for the **AI Product Management Certification**. Each module's artefact lives in its own folder; this README is the dashboard and the pitch.
 
----
-
-## How to use this template
-
-1. Click **Use this template** on GitHub (or fork it).
-2. Rename your fork `juno-pm` (or whatever you prefer).
-3. Clone it locally.
-4. In M1, open `01-prompting/` and add your first artifact. Commit + push.
-5. Repeat per module. Each module's slide deck names the file you commit.
-6. At the end of M6, run the **Final Project Deliverables Builder** tool — it generates the finalised README that replaces this one.
-
-> **Submission for certification:** the URL of this fork, within 7 days of cohort end.
+**How to use this template:** click **Use this template → Create a new repository**, name it `juno-pm`, and commit one module's artefact per session. Assemble this dashboard with the **Final Project Deliverables Builder** (paste its `README.md` output over this file).
 
 ---
 
-## The Juno arc — what each module commits
+## Module artefacts
 
-| Module | Folder | What you commit |
-|---|---|---|
-| **M1 — Prompting** | `01-prompting/` | `system-prompt.md` + a Lovable prototype link |
-| **M2 — Strategy** | `02-strategy/` | `decision-matrix.md` + `strategy-one-pager.md` |
-| **M3 — RAG / AI PRD** | `03-rag-prd/` | `prd.md` (with RAG architecture decisions) |
-| **M4 — AI-UX** | `04-ai-ux/` | `user-flow.md` + `trust-gaps.md` |
-| **M5 — Agentic** | `05-agentic-workflows/` | `awspec.md` + `control-panel.md` (+ optional `Juno Agent.json` Langflow lab) |
-| **M6 — Evals** | `06-evals/` | `eval-stack.md` + `human-rubric.md` |
+### M1 · Prompting
+- **System prompt** — [`01-prompting/system-prompt.md`](01-prompting/system-prompt.md)
+- **Lovable prototype** — _(share URL)_
 
-Every module's tools have a "Copy as markdown" button. Paste the output into the file path above. Self-review. Run the AI-review prompt. Commit. Push.
+### M2 · Strategy
+- **Decision matrix** — [`02-strategy/decision-matrix.md`](02-strategy/decision-matrix.md)
+- **AI Strategy one-pager** — [`02-strategy/strategy-one-pager.md`](02-strategy/strategy-one-pager.md)
+
+### M3 · RAG / AI PRD
+- **AI PRD** — [`03-rag-prd/prd.md`](03-rag-prd/prd.md)
+
+### M4 · AI-Native UX
+- **AI user flow** — [`04-ai-ux/user-flow.md`](04-ai-ux/user-flow.md)
+- **Trust-gap mitigations** — [`04-ai-ux/trust-gaps.md`](04-ai-ux/trust-gaps.md)
+
+### M5 · Agentic Workflows
+- **Agent Workflow Spec (AWSpec)** — [`05-agentic-workflows/awspec.md`](05-agentic-workflows/awspec.md)
+- **Agent Control Panel** — [`05-agentic-workflows/agent-control-panel.md`](05-agentic-workflows/agent-control-panel.md)
+
+### M6 · Evals & Guardrails
+- **Eval stack** — [`06-evals/eval-stack.md`](06-evals/eval-stack.md)
+- **Human evaluation rubric** — [`06-evals/human-rubric.md`](06-evals/human-rubric.md)
 
 ---
 
-## Conventions
+## PM Execution Plan
 
-- **Markdown for all artifacts.** Slides stay in the course repo; your outputs live here as `.md`.
-- **One commit per artifact.** Use the AI-review prompt as the commit body.
-- **No PII.** This is a public-by-default learning repo. Use only the synthetic RocketShip scenario.
-- **Versioning.** Bump `Version` in each artifact header when you revise.
+### Where Juno is today
+_____
+
+### What ships next (next 2 sprints)
+_____
+
+### What I watch (dashboards)
+_____
+
+### Red lines (what blocks shipping — numbers, not feelings)
+_____
+
+### Governance
+_Compliance · Safety · Reliability · Reputation._
 
 ---
 
-## Folder map
+## Build Insights
+
+- **Friction point.** _____
+- **Key learning.** _____
+- **Aha moment.** _____
+
+---
+
+## Repo structure
 
 ```
 juno-pm/
-├── README.md                              # this file (you'll finalise it at M6)
+├── README.md                          ← this dashboard + pitch
 ├── 01-prompting/
-│   ├── system-prompt.md                   # M1 deliverable
-│   └── lovable-prototype.md               # M1 — link + screenshots
+│   ├── system-prompt.md               ← M1: Juno's system prompt
+│   └── lovable-prototype.md           ← M1: prototype link + debrief
 ├── 02-strategy/
-│   ├── decision-matrix.md                 # M2 deliverable
-│   └── strategy-one-pager.md              # M2 deliverable
+│   ├── decision-matrix.md             ← M2: build / buy / fine-tune / partner call
+│   └── strategy-one-pager.md          ← M2: AI strategy one-pager
 ├── 03-rag-prd/
-│   └── prd.md                             # M3 deliverable
+│   └── prd.md                         ← M3: AI PRD with retrieval requirements
 ├── 04-ai-ux/
-│   ├── user-flow.md                       # M4 deliverable
-│   └── trust-gaps.md                      # M4 deliverable
+│   ├── user-flow.md                   ← M4: AI-native user flow
+│   └── trust-gaps.md                  ← M4: trust-gap mitigations
 ├── 05-agentic-workflows/
-│   ├── awspec.md                          # M5 deliverable
-│   ├── control-panel.md                   # M5 deliverable
-│   └── Juno Agent.json                    # M5 optional Langflow starter (provided)
+│   ├── awspec.md                      ← M5: Agent Workflow Spec
+│   └── agent-control-panel.md         ← M5: Agent Control Panel
 └── 06-evals/
-    ├── eval-stack.md                      # M6 deliverable
-    └── human-rubric.md                    # M6 deliverable
+    ├── eval-stack.md                  ← M6: layered eval stack
+    └── human-rubric.md                ← M6: human evaluation rubric
 ```
 
 ---
 
-## When you finish
-
-1. Use `Final Project Deliverables Builder.html` (M6 tool) to generate the **finalised README**.
-2. Replace this file's content with the output.
-3. Commit + push.
-4. (Optional) record a 3-min Loom; post repo URL + Loom in `#ai-pm-cohort`.
-5. Submit the repo URL within 7 days of cohort end.
-
----
-
-_Course: AI Product Management Certification · 6 modules · Individual format · Repo-as-portfolio._
+_Certification submission — AI Product Management Certification._

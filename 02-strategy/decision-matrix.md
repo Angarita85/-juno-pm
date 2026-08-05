@@ -1,20 +1,23 @@
-# Juno PM — AI Solution Decision Matrix
+# AI Solution Decision Matrix · Juno
 
-_Version 0.1 — placeholder. Replace via M2 AI Solution Decision Matrix tool._
+> Module 2 · Strategy. The build / buy / fine-tune / partner call, made with the **M2 · AI Solution Decision Matrix**. Paste the tool's markdown over this file.
 
-| Lens | Score (1–5) | Notes |
-|---|---|---|
-| Value | _ | |
-| Feasibility | _ | |
-| Cost | _ | |
-| Risk | _ | |
-| Speed-to-impact | _ | |
-| Defensibility | _ | |
+## The decision
 
-**Total: _/30**
+_What are you deciding, and why now?_
 
-## Strongest lens
-_(why)_
+_____
 
-## Weakest lens
-_(why, and what would change it)_
+## Options scored
+
+| Option | Cost | Speed | Control | Moat | Risk | Score |
+|---|---|---|---|---|---|---|
+| _Build_ | _…_ | _…_ | _…_ | _…_ | _…_ | _…_ |
+| _Buy / API_ | _…_ | _…_ | _…_ | _…_ | _…_ | _…_ |
+| _Fine-tune_ | _…_ | _…_ | _…_ | _…_ | _…_ | _…_ |
+
+## Recommendation
+
+_The chosen option and the business reason._
+
+_____

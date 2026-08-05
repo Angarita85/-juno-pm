@@ -1,36 +1,33 @@
-# Juno PM — AI PRD
+# AI PRD · Juno
 
-_Version 0.1 — placeholder. Replace via M3 AI PRD Builder._
+> Module 3 · RAG / AI PRD. The AI product requirements doc with retrieval requirements, built with the **M3 · AI PRD Builder** (RAG design from the **M3 · RAG Architecture Decider**). Paste the tool's markdown over this file.
 
-## 1. Problem
-_(traditional PRD problem statement)_
+## Problem & user
 
-## 2. Users + jobs
-_(traditional PRD user section)_
+_The user problem and who has it._
 
-## 3. Solution
-_(what we ship, behaviour-level — not "we'll use an LLM")_
+_____
 
-## 4. Data corpus + retrieval strategy *(AI-specific)*
-- **Corpus:** _(what docs, which systems, how fresh)_
-- **Chunking:** _(strategy + size)_
-- **Embedding model:** _(provider + model + dims)_
-- **Top-k retrieval:** _(value + similarity threshold)_
-- **Re-ranking:** _(yes/no + how)_
+## Solution overview
 
-## 5. Eval plan *(AI-specific)*
-- **Golden set:** _(size + how curated)_
-- **Layers:** _(see 06-evals/eval-stack.md)_
-- **Pass bar:** _(numeric)_
+_What Juno does, at a glance._
 
-## 6. Failure modes + guardrails *(AI-specific)*
-- **Hallucination type 1 — _(name)_:** mitigation: _(specific)_
-- **Hallucination type 2 — _(name)_:** mitigation: _(specific)_
-- **Prompt injection:** mitigation: _(specific)_
-- **PII leakage:** mitigation: _(specific)_
+_____
 
-## 7. Success metrics
-_(numeric, with targets and timelines)_
+## Retrieval requirements (RAG)
 
-## 8. Open questions
-_(what we'll learn in M4–M6)_
+- **Sources:** _what Juno retrieves from._
+- **Chunking / indexing:** _strategy + why._
+- **Grounding rule:** _e.g. no answer without a cited source._
+- **Freshness:** _how current the data must be._
+
+## Requirements
+
+| # | Requirement | Priority | Acceptance criteria |
+|---|---|---|---|
+| 1 | _…_ | Must | _…_ |
+| 2 | _…_ | Should | _…_ |
+
+## Out of scope
+
+_____
