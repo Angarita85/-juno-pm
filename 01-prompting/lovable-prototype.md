@@ -4,18 +4,18 @@
 
 ## Prototype link
 
-_The public Lovable share URL._
+(https://turbo-prds-ai.lovable.app)
 
 _____
 
 ## What it demonstrates
 
-_The one flow this prototype proves._
+It demonstrates that it can take unstructured text and extract insights. 
 
 _____
 
 ## Debrief
 
-- **What worked:** _____
-- **What broke / felt like a toy:** _____
-- **What I'd change next pass:** _____
+- **What worked:** It was able to extract some insights. It took design inspiration from Pendo as requested. 
+- **What broke / felt like a toy:** It was able to extract some insights. It took design inspiration from Pendo as requested. 
+- **What I'd change next pass:** I would state that it should sustain the text and give me the option to clear when I was finished.
