@@ -24,21 +24,3 @@ If the user asks for a synthesis: markdown bullet list, max 7 bullets, grouped b
 ## Few-shot examples
 
 _One or two worked input / output pairs._
-
-## Rules & guardrails
-
-_Musts, must-nots, refusal conditions, and tone._
-
-_____
-
-## Output format
-
-_The exact shape of a good response._
-
-_____
-
-## Few-shot examples
-
-_One or two worked input → output pairs._
-
-_____
