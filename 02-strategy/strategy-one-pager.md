@@ -1,22 +1,28 @@
-# AI Strategy One-Pager · Juno
+# AI Strategy One-Pager - Juno Automated Prioritization
 
-> Module 2 · Strategy. Built with the **M2 · AI Strategy One-Pager Builder** (informed by the Three-Layer Model Mapper). Paste the tool's markdown over this file.
+## 1. Problem & Workflow
 
-## The bet
+Today, customer feedback is unstructured and the backlog is blocked with unprioritized P1s. Prioritization happens based leadership whims and is not solving problems. 
 
-_The one-sentence strategic bet._
+## 2. Target Metrics
 
-_____
+Customer NPS score or an ASUS score should be going up. The velocity of the execution should also increase. Number of new tickets filed should go down. 
 
-## Three-layer model
+## 3. Autonomy Level
 
-- **Model layer:** _which model(s), and why._
-- **Data / retrieval layer:** _what proprietary data or context creates advantage._
-- **Product layer:** _the experience users actually pay for._
+I would not choose agent at this point because this is a new workflow that still requires human review. Assist is probably too low level with the amount of tickets opened. 
 
-## Why now
+## 4. Data & Model Approach
 
-_Market timing + why this is defensible._
+I would not buy alone because my LLM needs access to internal customer data. 
+
+## 5. Risks & Mitigations
+
+The system could miss important context and not extract the correct insights thus messing up the prioritization. The guardrail needs to ensure that the desired outcome is to improve customer experience.
+
+## 6. V1 Scope
+
+The AI will not generate ideas that are out of scope for customer experience improvement. The AI will also not invent customer feedback that is not part of the existing tickets. 
 
 _____
 
