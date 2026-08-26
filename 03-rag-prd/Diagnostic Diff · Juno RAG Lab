@@ -1,0 +1,68 @@
+## Diagnostic Diff · Juno RAG Lab
+
+_Working notes from Module 3 Lab 1. Do not paste over `03-rag-prd/prd.md`. That file comes from the AI PRD Builder._
+
+**Lovable prototype:** https://lovable.dev/projects/f9d17cd3-3fac-46cc-bcef-eb6568719fef?magic_link=mc_8c61cc41-9786-4da7-a07a-fac6a983cc82
+
+### Before - Quality Mode (no strategy)
+
+Centralized Signal Extraction for Product Initiatives
+Sarah, a Senior PM, struggles with remembering the 'why' behind product decisions due to scattered information across Notion, Zendesk, and emails. She needs a single platform to aggregate transcripts, tickets, and emails to extract the core 'signal' – identifying user pain points, their severity, and shaping defensible opportunity briefs.
+
+“The hardest part isn't deciding what to build; it's remembering why we decided it.”
+“Interview notes live in Notion, support tickets in Zendesk, and exec feedback arrives as forwarded emails.”
+“By the time I write the PRD, I've opened 40 tabs and still can't find the original quote.”
+“What I need is a single place where I paste everything—transcripts, tickets, emails—and get back the actual signal: who feels the pain, how strong is it, and what a defensible opportunity brief would look like.”
+P1
+User Experience
+negative
+Improved Cross-Referencing for User Feedback Interpretation
+Sarah encountered a critical issue where 'better reporting' from sales was misinterpreted due to disparate definitions across different feedback sources (sales, support tickets). This led to building the wrong feature (e.g., 'scheduled exports' instead of 'dashboard sharing' or 'CSV downloads'). She needs a mechanism to cross-reference feedback sources to accurately understand user needs and avoid misinterpretations.
+
+“Last week our top request from sales was "better reporting."”
+“When I dug into support tickets, the word "report" meant three different things: scheduled exports, dashboard sharing, and CSV downloads.”
+“We built the wrong one because nobody cross-referenced the sources.”
+P2
+Efficiency
+negative
+Streamlined PRD Writing Process
+Sarah spends excessive time (opening '40 tabs') gathering dispersed information from various sources (Notion, Zendesk, emails) to write Product Requirement Documents (PRDs). This indicates a significant inefficiency in her current workflow.
+
+“By the time I write the PRD, I've opened 40 tabs and still can't find the original quote.”
+
+### After - Strategy Mode (with RocketShip Strategy One-Pager)
+
+Fragmented feedback sources cause context loss and PRD drafting friction
+Interview notes live in Notion, support tickets in Zendesk, and exec feedback arrives as forwarded emails. By the time PMs write PRDs, they navigate dozens of tabs and struggle to locate original evidence quotes.
+
+Efficiency
+P1
+Score 92/100
+Frustrated
+Customer interview — Sarah, Senior PM
+Why: Scored 92/100 across quality signals (high problem clarity, clear direct evidence, estimable workflow pain, zero anti-patterns). Without strategy document, priority reflects request quality, not strategic alignment.
+
+Semantic ambiguity across feedback silos leads to building incorrect features
+Requests like 'better reporting' masked distinct underlying needs (scheduled exports vs. dashboard sharing vs. CSV downloads), resulting in wasted engineering cycles because disparate sources were not cross-referenced.
+
+Reliability
+P1
+Score 96/100
+Frustrated
+Customer interview — Sarah, Senior PM
+Why: Scored 96/100 based on concrete historical failure evidence and high problem definition. Without strategy document, priority reflects request quality, not strategic alignment.
+
+Demand for centralized multi-source feedback synthesis and opportunity briefing
+PMs need a single interface to ingest raw text across channels (transcripts, tickets, emails) and extract structured pain points, severity scoring, and defensible draft opportunity briefs.
+
+User Experience
+P1
+Score 89/100
+Hopeful
+Customer interview — Sarah, Senior PM
+Why: Scored 89/100 with clear solution framing rooted in verified operational friction. Without strategy document, priority reflects request quality, not strategic alignment.
+
+### Takeaway
+
+> Adding the RAG and the strategy document requirement improved the outputs of the tool.
+
